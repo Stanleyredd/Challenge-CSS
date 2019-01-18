@@ -1,8 +1,3 @@
-/** {*/
-    /*border: 1px dotted black;*/
-/*}*/
-
-/*Begin van de hamburger menu */
 .burger{
     width: 20px;
     height: 2px;
@@ -141,15 +136,15 @@ section {
 p {
     display: flex;
     align-items: flex-end;
-    text-decoration: none;
+
     position:absolute;
 
     bottom: 30px;
 
 }
-h2 {
+#h1 {
     position:absolute;
-    text-decoration: none;
+
     bottom: 0px;
 }
 
@@ -157,7 +152,7 @@ article {
     background-color: white;
     width: 90%;
     padding: 20px;
-    height: 150px;
+    height: 550px;
 
 
 

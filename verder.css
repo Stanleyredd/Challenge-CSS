@@ -1,5 +1,5 @@
 /** {*/
-    /*border: 1px dotted black;*/
+/*border: 1px dotted black;*/
 /*}*/
 
 /*Begin van de hamburger menu */
@@ -140,7 +140,7 @@ section {
 }
 p {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     text-decoration: none;
     position:absolute;
 
@@ -148,12 +148,14 @@ p {
 
 }
 h2 {
+    text-align: center;
     position:absolute;
     text-decoration: none;
     bottom: 0px;
 }
 
 article {
+    text-align: center;
     background-color: white;
     width: 90%;
     padding: 20px;
