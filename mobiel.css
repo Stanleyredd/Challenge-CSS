@@ -14,6 +14,62 @@ body {
     display: grid;
 
 }
+/*Begin van de hamburger menu */
+
+
+
+/*Einde van de Hamburger menu*/
+/*-------------------------------------------------------------------------*/
+/*de witte tekstvelden */
+
+p {
+    color: #AAA9AB;
+}
+.container-1 {
+    padding-top: 50px;
+}
+
+.box-1 {
+    bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    align-items: end;
+    height: 200px;
+
+}
+
+.box-2 {
+    bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    align-items: end;
+    height: 200px;
+}
+
+.box-3 {
+
+    bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    align-items: end;
+    height: 200px;
+}
+.box-4 {
+
+    bottom: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    align-items: end;
+    height: 200px;
+}
+
+
+/*einde witte tekstvelden*/
+/*----------------------------------------------*/
 div {
     position: relative;
 }
@@ -22,16 +78,11 @@ div {
     color: white;
     text-align: center;
 }
-/*.wit {*/
-    /*padding: 10px;*/
-    /*margin: 10px;*/
-    /*background-color: white;*/
-    /*height: 200px;*/
-    /*display: flex;*/
-/*}*/
+
 
 header{
-    background-color: #181818;
+    /*background-color: #181818;*/
+    background-color: transparent;
     text-align: center;
     height: 50px;
 }
@@ -43,6 +94,7 @@ header{
 
 
 section {
+    padding-top: 400px;
     padding-right: 10%;
     padding-left: 10%;
 }
@@ -55,13 +107,13 @@ p {
     bottom: 30px;
 
 }
-h3 {
+h2 {
     position:absolute;
 
     bottom: 0px;
 }
 
-footer {
+article {
     background-color: white;
     width: 90%;
     padding: 20px;

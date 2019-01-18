@@ -5,64 +5,78 @@
     <title>Challenge</title>
     <link rel="stylesheet" href="mobiel.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,700" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-    p {
-        color: #AAA9AB;
-    }
-        .container-1 {
-
+        .nav {
+            border-bottom: 1px solid black;
+            text-align: center;
+            height: 70px;
+            line-height: 70px;
+        }
+        .menu{
+            margin: 0 30px 0;
+        }
+        .menu a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+            line-height: 70px;
+        }
+        span {
+            color: #54D17A;
         }
 
-        .box-1 {
-            bottom: 5px;
-            padding-right: 10%;
-            padding-left: 10%;
-            display: flex;
-            align-items: end;
-            height: 200px;
+        label {
+            margin: 0 40px 0 0;
+            font-size: 26px;
+            line-height: 70px;
 
+            width: 26px;
+            display: none;
+                  float: right;
         }
 
-        .box-2 {
-            bottom: 5px;
-            padding-right: 10%;
-            padding-left: 10%;
-            display: flex;
-            align-items: end;
-            height: 200px;
+        #toggle{
+            display: none;
         }
+        @media only screen and (max-width: 500px){
+            label{
 
-        .box-3 {
-
-            bottom: 5px;
-            padding-right: 10%;
-            padding-left: 10%;
-            display: flex;
-            align-items: end;
-            height: 200px;
+                display: block;
+                cursor: pointer;
+            }
+            .menu {
+                text-align: center;
+                width: 100%;
+            }
+            .menu a {
+                display: block;
+                border-bottom:1px solid black;
+                margin: 0;
+            }
+            #toggle:checked + .menu {
+                display: block;
+            }
         }
-        .box-4 {
-
-            bottom: 5px;
-            padding-right: 10%;
-            padding-left: 10%;
-            display: flex;
-            align-items: end;
-            height: 200px;
-        }
-
-
-
-
-
-
     </style>
-
 </head>
 <body>
 <header>
-    
+    <!--Hamburger menu-->
+    <div class="nav">
+        <label for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle">
+        <div class="menu">
+            <a href="#">business</a>
+            <a href="#">snap</a>
+            <a href="#">insta</a>
+            <a href="#"><span>free trial</span></a>
+
+        </div>
+    </div>
+
+
+    <!--Einde Hamburger menu-->
 </header>
 
 
@@ -70,59 +84,38 @@
 <section>
     <h1 class="headertekst">CHALLENGE</h1>
     <h3 class="headertekst">Effe bikkelen op een mooie website</h3>
-    <br>
+
 </section>
 
 <div class="container-1">
     <div class="box-1">
-        <footer>
+        <article>
             <p>11 JANUARI 2019 <br></p>
-            <h3>TIS WEER LENTE </h3>
-        </footer>
+            <h2>TIS WEER LENTE </h2>
+        </article>
     </div>
 
     <div class="box-2">
-        <footer>
+        <article>
             <p>11 JANUARI 2019 </p>
-            <h3>VERDER KIJKEN</h3>
-        </footer>
+            <h2>VERDER KIJKEN</h2>
+        </article>
     </div>
 
     <div class="box-3">
-        <footer>
+        <article>
             <p>11 JANUARI 2019 </p>
-            <h3>BACKPACKING</h3>
-        </footer>
+            <h2>BACKPACKING</h2>
+        </article>
     </div>
 
     <div class="box-4">
-        <footer>
+        <article>
             <p>11 JANUARI 2019 </p>
-            <h3>WILDCAMPEREN</h3>
-        </footer>
+            <h2>WILDCAMPEREN</h2>
+        </article>
     </div>
 </div>
-<!--<div id="teksten">-->
-<!--<section>-->
-    <!--<p class="wit" >11 JANUARI 2019 <br>TIS WEER LENTE</p>-->
-
-<!--</section>-->
-
-<!--</div>-->
-<!--<section>-->
-    <!--<p class="wit" >11 JANUARI 2019 <br>VERDER KIJKEN</p>-->
-<!--</section>-->
-
-<!--<section>-->
-    <!--<p class="wit" >11 JANUARI 2019 <br>BACKPACKING</p>-->
-<!--</section>-->
-
-<!--<section>-->
-    <!--<p class="wit" >11 JANUARI 2019 <br>WILDCAMPEREN</p>-->
-
-
-<!--</section>-->
-
 
 
 
@@ -130,6 +123,7 @@
 
 
 </div>
+
 
 
 
